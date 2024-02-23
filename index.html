@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix clone - Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <!-- LEFT SECTION -->
+          <a class="navbar-brand" href="#"><img src="./assets/netflix_logo.png" alt="logo" /></a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My List</a>
+              </li>
+            </ul>
+            <!-- RIGHT SECTION  -->
+            <div class="d-flex my-2 my-lg-0">
+              <i class="bi bi-search"></i>
+              <a class="nav-link" href="#"><p>KIDS</p></a>
+              <i class="bi bi-bell-fill"></i>
+              <div class="btn-group">
+                <button
+                  class="btn btn-dark dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="./assets/avatar.png" alt="user" />
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end bg-dark">
+                  <li class="text-center"><a class="text-white" href="./user.html">User 1</a></li>
+                  <li class="text-center"><a class="text-white" href="./user.html">User 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- HEADLINE SECTION  -->
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <div class="row align-items-center">
+              <div class="col-6">
+                <h2>TV Shows</h2>
+              </div>
+              <div class="col-6">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-dark dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Genres
+                  </button>
+                  <ul class="dropdown-menu bg-dark">
+                    <li class="dropdown-item text-white text-center">Action</li>
+                    <li class="dropdown-item text-white text-center">Thriller</li>
+                    <li class="dropdown-item text-white text-center">Drama</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6" style="display: flex; justify-content: flex-end">
+            <a href="#"><i class="bi bi-filter-left"></i></a>
+            <a href="#"><i class="bi bi-grid-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- TRENDING NOW  -->
+      <section id="trending">
+        <div class="container mt-4">
+          <h5>Trending Now</h5>
+          <div class="row">
+            <div class="col-2 p-1"><img src="./assets/media/media1.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media4.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media6.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media9.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media10.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media11.jpg" alt="cover-photo" /></div>
+          </div>
+        </div>
+      </section>
+      <!-- WATCH IT AGAIN  -->
+      <section>
+        <div class="container mt-4">
+          <h5>Watch It Again</h5>
+          <div class="row">
+            <div class="col-2 p-1"><img src="./assets/media/media12.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media13.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media15.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media30.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media17.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media18.jpg" alt="cover-photo" /></div>
+          </div>
+        </div>
+      </section>
+      <!-- NEW RELEASES  -->
+      <section>
+        <div class="container mt-4">
+          <h5>New Releases</h5>
+          <div class="row">
+            <div class="col-2 p-1"><img src="./assets/media/media20.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media24.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media27.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media28.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media29.jpg" alt="cover-photo" /></div>
+            <div class="col-2 p-1"><img src="./assets/media/media32.jpg" alt="cover-photo" /></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container mt-5">
+        <div class="row gap-3">
+          <div class="col-12">
+            <img src="./assets/icons8-facebook.svg" alt="facebook" />
+            <img src="./assets/icons8-instagram.svg" alt="instagram" />
+            <img src="./assets/icons8-twitter.svg" alt="twitter" />
+            <img src="./assets/icons8-youtube.svg" alt="youtube" />
+          </div>
+          <div class="col-12">
+            <div class="row flex-row">
+              <div class="col-3">
+                <ul class="text">
+                  <li class="p-1">Audio and Subtitles</li>
+                  <li class="p-1">Media Center</li>
+                  <li class="p-1">Privacy</li>
+                  <li class="p-1">Contact us</li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul class="text">
+                  <li class="p-1">Audio Description</li>
+                  <li class="p-1">Investor Relations</li>
+                  <li class="p-1">Legal Notices</li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul class="text">
+                  <li class="p-1">Help Center</li>
+                  <li class="p-1">Jobs</li>
+                  <li class="p-1">Coockie Preferences</li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul class="text">
+                  <li class="p-1">Gift Cards</li>
+                  <li class="p-1">Terms of Use</li>
+                  <li class="p-1">Corporate Information</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <a href="#">Service Code</a>
+          </div>
+          <div class="col-12">
+            <p>&#169; 1997-2019 Netflix, Inc. {i-0d00fcda2fdf9c0de}</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

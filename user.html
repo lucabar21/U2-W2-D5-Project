@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clone User page</title>
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./assets/netflix_logo.png" alt="logo" /></a>
+        </div>
+      </nav>
+    </header>
+    <main id="user-main">
+      <div class="container">
+        <h1>Edit Profile</h1>
+        <div class="line"></div>
+        <div class="row mt-3">
+          <div class="col-2">
+            <div id="avatar-img">
+              <img class="avatar" src="./assets/avatar.png" alt="user" />
+              <img class="edit" src="./assets/icons8-edit.svg" alt="edit" />
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="row flex-column">
+              <div id="first" class="col-12 mb-3">
+                <h3>Strive Student</h3>
+                <div>
+                  <h5>Language:</h5>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>English</option>
+                    <option value="1">Italian</option>
+                    <option value="2">French</option>
+                    <option value="3">Spanish</option>
+                  </select>
+                </div>
+                <div class="line mt-3"></div>
+              </div>
+              <div id="second" class="col-12 mb-3">
+                <h4>Maturity Settings:</h4>
+                <span>ALL MATURITY RATINGS</span>
+                <h5>Show titles of all maturity ratings for this profile.</h5>
+                <a href="#">EDIT</a>
+                <div class="line mt-3"></div>
+              </div>
+
+              <div id="third" class="col-12">
+                <h4>Autoplay controls</h4>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Autoplay next episode in a series on all devices.</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Autoplay previews while browsing on all devices.
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line mt-3 mb-4"></div>
+        <div id="btn-set" class="row">
+          <div class="col-4"><div class="btn-s" href="#">SAVE</div></div>
+          <div class="col-4"><div class="btn-s" href="#">CANCEL</div></div>
+          <div class="col-4"><div class="btn-s" href="#">DELETE PROFILE</div></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
