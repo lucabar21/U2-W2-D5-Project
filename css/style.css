@@ -11901,11 +11901,14 @@ main section {
 main section .container h5, main section .container .h5 {
   color: #f4f4f4;
 }
-main section .container .row .col-2 img {
+main section .container .row {
+  row-gap: 1.2rem;
+}
+main section .container .row .col-xl-2 img {
   width: 100%;
   cursor: pointer;
 }
-main section .container .row .col-2 img:hover {
+main section .container .row .col-xl-2 img:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
