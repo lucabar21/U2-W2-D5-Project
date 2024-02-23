@@ -76,8 +76,10 @@ main {
         color: #f4f4f4;
       }
       .row {
-        row-gap: 1.2rem;
+        row-gap: 0.1rem;
         .col-xl-2 {
+          padding: unset;
+          padding: 0.2rem;
           img {
             width: 100%;
             cursor: pointer;

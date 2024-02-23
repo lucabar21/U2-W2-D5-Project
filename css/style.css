@@ -11902,7 +11902,11 @@ main section .container h5, main section .container .h5 {
   color: #f4f4f4;
 }
 main section .container .row {
-  row-gap: 1.2rem;
+  row-gap: 0.1rem;
+}
+main section .container .row .col-xl-2 {
+  padding: unset;
+  padding: 0.2rem;
 }
 main section .container .row .col-xl-2 img {
   width: 100%;
